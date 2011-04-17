@@ -7,7 +7,7 @@ GET     /                                       Application.index
 
 GET     /posts/{id}                             Application.show
 
-POSTS   /posts/{postId}/comments                Application.postComment
+POST   /posts/{postId}/comments                Application.postComment
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
