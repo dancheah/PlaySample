@@ -1,0 +1,3 @@
+Trying out some stuff with "Play Framework":http://www.playframework.org 
+
+yabe-tutorial contains code from the play framework tutorial that I'm working through.
