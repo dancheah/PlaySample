@@ -12,7 +12,10 @@ POST   /posts/{postId}/comments        Application.postComment
 
 GET    /captcha                        Application.captcha
 
+GET    /admin/?                        Admin.index
 *      /admin                          module:crud
+
+*      /                               module:secure
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
